@@ -1,5 +1,4 @@
-# ha-tunnel-addon/Dockerfile
-ARG BUILD_FROM=python:3.11-slim-buster
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:18.0.3
 
 FROM ${BUILD_FROM}
 
