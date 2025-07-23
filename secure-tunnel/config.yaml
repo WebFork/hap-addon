@@ -27,5 +27,5 @@ options:
   subdomain: ""
 
 schema:
-  api_key: "string"
-  subdomain: "string"
+  api_key: "password"
+  subdomain: "str"
