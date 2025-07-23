@@ -5,8 +5,7 @@ FROM ${BUILD_FROM}
 
 # Install system dependencies
 # jq is used in run.sh to parse the config file
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    jq
+RUN apk add --no-cache jq
 
 # Set up the working directory
 WORKDIR /app
